@@ -7,7 +7,7 @@ namespace UserControl3D.Model;
 
 public static class ImageLoader
 {
-    public const int MaxDimension = 1024;
+    public const int MaxDimension = 512;
 
     public static GrayImage Load(string filePath, int maxDimension = MaxDimension)
     {

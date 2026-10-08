@@ -32,3 +32,4 @@ C:\Users\User\source\repos\3D_window - Copy (2)\UserControl3D\obj\Debug\net10.0-
 C:\Users\User\source\repos\3D_window - Copy (2)\UserControl3D\obj\Debug\net10.0-windows10.0.19041\UserControl3D.pdb
 C:\Users\User\source\repos\3D_window - Copy (2)\UserControl3D\obj\Debug\net10.0-windows10.0.19041\ref\UserControl3D.dll
 C:\Users\User\source\repos\3D_window - Copy (2)\UserControl3D\obj\Debug\net10.0-windows10.0.19041\UserCont.CD8EFAF3.Up2Date
+C:\Users\User\source\repos\3D_window\UserControl3D\obj\Debug\net10.0-windows10.0.19041\UserControl3D.sourcelink.json

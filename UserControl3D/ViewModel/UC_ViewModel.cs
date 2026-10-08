@@ -1,8 +1,6 @@
 using System.Threading;
-using System.IO;
 using HelixToolkit.SharpDX;
 using HelixToolkit.Wpf.SharpDX;
-using Microsoft.Win32;
 using ReactiveUI;
 using ReactiveUI.Primitives;
 using ReactiveUI.Primitives.Disposables;
@@ -24,17 +22,7 @@ public partial class UC_ViewModel : ReactiveObject, IDisposable
     private bool rendering;
     public EffectsManager EffectsManager { get; } = new DefaultEffectsManager();
 
-    [ReactiveCommand] public void SelectImage()
-    {
-        var dialog = new OpenFileDialog
-        {
-            Title = "Select an image file",
-            Filter = "Image Files (*.jpg;*.jpeg;*.png;*.gif;*.bmp;*.tiff;*.ico)|*.jpg;*.jpeg;*.png;*.gif;*.bmp;*.tiff;*.ico|All Files (*.*)|*.*",
-            FilterIndex = 1,
-            Multiselect = false
-        };
-        if (dialog.ShowDialog() == true) File = Path.GetFullPath(dialog.FileName);
-    }
+    public void SetImageFile(string? path) => File = path ?? string.Empty;
 
     [ReactiveCommand] public async Task LoadImage(CancellationToken token)
     {
@@ -77,7 +65,6 @@ public partial class UC_ViewModel : ReactiveObject, IDisposable
             .DisposeWith(disposables);
         LoadImageCommand.ThrownExceptions.Subscribe(ReportError).DisposeWith(disposables);
         RenderCommand.ThrownExceptions.Subscribe(ReportError).DisposeWith(disposables);
-        SelectImageCommand.ThrownExceptions.Subscribe(ReportError).DisposeWith(disposables);
     }
 
     private void ReportError(Exception ex) => Status = $"Failed: {ex.Message}";

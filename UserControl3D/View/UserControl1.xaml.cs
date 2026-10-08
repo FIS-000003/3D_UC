@@ -14,6 +14,22 @@ namespace UserControl3D;
 
 public partial class UserControl1 : UserControl
 {
+    public static readonly DependencyProperty ImageFilePathProperty = DependencyProperty.Register(
+        nameof(ImageFilePath), typeof(string), typeof(UserControl1),
+        new PropertyMetadata(string.Empty, OnImageFilePathChanged));
+
+    public string ImageFilePath
+    {
+        get => (string)GetValue(ImageFilePathProperty);
+        set => SetValue(ImageFilePathProperty, value);
+    }
+
+    private static void OnImageFilePathChanged(DependencyObject dependencyObject, DependencyPropertyChangedEventArgs e)
+    {
+        if (dependencyObject is UserControl1 control && e.NewValue is string path)
+            control.vm.SetImageFile(path);
+    }
+
     private readonly Stopwatch mouseMoveStopwatch = Stopwatch.StartNew();
     private static readonly TimeSpan MouseMoveInterval = TimeSpan.FromSeconds(0.05);
     private readonly UC_ViewModel vm;
@@ -23,6 +39,7 @@ public partial class UserControl1 : UserControl
         InitializeComponent();
         vm = new UC_ViewModel();
         DataContext = vm;
+        Loaded += (_, _) => vm.SetImageFile(ImageFilePath);
         Unloaded += (_, _) => vm.Dispose();
         vm.WhenAnyValue(x => x.ModelMesh).Where(x => x is not null).Subscribe(mesh =>
         {

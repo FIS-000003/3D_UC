@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserControl3D")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33b87169865183795dae8b910ff2d76d2f2f0355")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62aaa808d19d95a207d328a2a06d579f84f64040")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserControl3D")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserControl3D")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -162,3 +162,4 @@ C:\Users\User\source\repos\3D_window - Copy (2)\3D_window\obj\Debug\net10.0-wind
 C:\Users\User\source\repos\3D_window - Copy (2)\3D_window\obj\Debug\net10.0-windows10.0.19041\3D_window.pdb
 C:\Users\User\source\repos\3D_window - Copy (2)\3D_window\obj\Debug\net10.0-windows10.0.19041\3D_window.genruntimeconfig.cache
 C:\Users\User\source\repos\3D_window - Copy (2)\3D_window\obj\Debug\net10.0-windows10.0.19041\ref\3D_window.dll
+C:\Users\User\source\repos\3D_window\3D_window\obj\Debug\net10.0-windows10.0.19041\3D_window.sourcelink.json
