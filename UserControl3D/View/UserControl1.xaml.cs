@@ -4,7 +4,9 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Threading;
+using HelixToolkit;
 using HelixToolkit.Maths;
+using HelixToolkit.SharpDX;
 using HelixToolkit.Wpf.SharpDX;
 using ReactiveUI;
 using ReactiveUI.Primitives;
@@ -33,6 +35,9 @@ public partial class UserControl1 : UserControl
     private readonly Stopwatch mouseMoveStopwatch = Stopwatch.StartNew();
     private static readonly TimeSpan MouseMoveInterval = TimeSpan.FromSeconds(0.05);
     private readonly UC_ViewModel vm;
+    private MeshGeometryModel3D? surfaceModel;
+    private PointGeometryModel3D? pointCloudModel;
+    private bool showPointCloud;
 
     public UserControl1()
     {
@@ -43,15 +48,50 @@ public partial class UserControl1 : UserControl
         Unloaded += (_, _) => vm.Dispose();
         vm.WhenAnyValue(x => x.ModelMesh).Where(x => x is not null).Subscribe(mesh =>
         {
-            viewport.Items.Clear();
-            viewport.Items.Add(mesh!);
+            surfaceModel = mesh!;
+            var pointGeometry = new PointGeometry3D
+            {
+                Positions = mesh!.Geometry?.Positions,
+                Colors = mesh.Geometry?.Colors,
+                Indices = new IntCollection(mesh.Geometry?.Positions?.Count ?? 0)
+            };
+            if (pointGeometry.Positions is { } positions && pointGeometry.Indices is { } indices)
+                for (int i = 0; i < positions.Count; i++)
+                    indices.Add(i);
+            pointCloudModel = new PointGeometryModel3D
+            {
+                Geometry = pointGeometry,
+                Size = new Size(3, 3),
+                Color = System.Windows.Media.Colors.White,
+                EnableColorBlending = true,
+                BlendingFactor = 1,
+                IsHitTestVisible = true
+            };
+            ShowCurrentRepresentation();
             Dispatcher.BeginInvoke(DispatcherPriority.Render, new Action(CenterCamera));
         });
     }
 
+    private void ToggleRepresentationButton_Click(object sender, RoutedEventArgs e)
+    {
+        showPointCloud = !showPointCloud;
+        ToggleRepresentationButton.Content = showPointCloud ? "Show Surface Mesh" : "Show Point Cloud";
+        ShowCurrentRepresentation();
+    }
+
+    private void ShowCurrentRepresentation()
+    {
+        Element3D? model = showPointCloud ? pointCloudModel : surfaceModel;
+        if (model is null) return;
+
+        viewport.Items.Clear();
+        viewport.Items.Add(model);
+        viewport.InvalidateRender();
+    }
+
     private void CenterCamera()
     {
-        var geometry = vm.ModelMesh?.Geometry;
+        Geometry3D? geometry = showPointCloud ? pointCloudModel?.Geometry : vm.ModelMesh?.Geometry;
         if (geometry?.Positions is null || geometry.Positions.Count == 0) return;
         float minX = float.MaxValue, minY = float.MaxValue, minZ = float.MaxValue;
         float maxX = float.MinValue, maxY = float.MinValue, maxZ = float.MinValue;
@@ -111,6 +151,12 @@ public partial class UserControl1 : UserControl
             Vector3 vertex = Closest(hit.PointHit, geometry.Positions[tri.Item1], geometry.Positions[tri.Item2], geometry.Positions[tri.Item3]);
             int x = (int)Math.Round(vertex.X), y = (int)Math.Round(vertex.Y);
             string gray = vm.Image is { } image && x >= 0 && x < image.Width && y >= 0 && y < image.Height ? image[x, y].ToString() : "-";
+            text += $"\nPixel: {x}, {y}\nGray: {gray}";
+        }
+        else if (showPointCloud)
+        {
+            int x = (int)Math.Round(hit.PointHit.X), y = (int)Math.Round(hit.PointHit.Y);
+            string gray = vm.Image is { } cloudImage && x >= 0 && x < cloudImage.Width && y >= 0 && y < cloudImage.Height ? cloudImage[x, y].ToString() : "-";
             text += $"\nPixel: {x}, {y}\nGray: {gray}";
         }
         PointInfoText.Text = text;
