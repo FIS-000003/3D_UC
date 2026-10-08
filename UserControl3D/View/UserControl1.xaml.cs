@@ -16,12 +16,12 @@ public partial class UserControl1 : UserControl
 {
     private readonly Stopwatch mouseMoveStopwatch = Stopwatch.StartNew();
     private static readonly TimeSpan MouseMoveInterval = TimeSpan.FromSeconds(0.05);
-    private readonly MainViewModel vm;
+    private readonly UC_ViewModel vm;
 
     public UserControl1()
     {
         InitializeComponent();
-        vm = new MainViewModel();
+        vm = new UC_ViewModel();
         DataContext = vm;
         Unloaded += (_, _) => vm.Dispose();
         vm.WhenAnyValue(x => x.ModelMesh).Where(x => x is not null).Subscribe(mesh =>

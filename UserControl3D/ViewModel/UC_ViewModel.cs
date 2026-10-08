@@ -11,7 +11,7 @@ using UserControl3D.Model;
 
 namespace UserControl3D.ViewModel;
 
-public partial class MainViewModel : ReactiveObject, IDisposable
+public partial class UC_ViewModel : ReactiveObject, IDisposable
 {
     [Reactive] public partial string File { get; set; } = string.Empty;
     [Reactive] public partial GrayImage? Image { get; set; }
@@ -65,7 +65,7 @@ public partial class MainViewModel : ReactiveObject, IDisposable
         finally { rendering = false; }
     }
 
-    public MainViewModel()
+    public UC_ViewModel()
     {
         this.WhenAnyValue(x => x.File)
             .Where(path => !string.IsNullOrWhiteSpace(path))

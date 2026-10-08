@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\3D_window - Copy (2)\\UserControl3D\\UserControl3D.csproj": {}
+    "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\UserControl3D.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\3D_window - Copy (2)\\UserControl3D\\UserControl3D.csproj": {
+    "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\UserControl3D.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\3D_window - Copy (2)\\UserControl3D\\UserControl3D.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\UserControl3D.csproj",
         "projectName": "UserControl3D",
-        "projectPath": "C:\\Users\\User\\source\\repos\\3D_window - Copy (2)\\UserControl3D\\UserControl3D.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\UserControl3D.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\3D_window - Copy (2)\\UserControl3D\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
