@@ -76,6 +76,20 @@ public partial class UserControl1 : UserControl
         };
     }
 
+    public void ResetView()
+    {
+        CenterCamera();
+        viewport.InvalidateRender();
+    }
+
+    private void UserControl_PreviewKeyDown(object sender, KeyEventArgs e)
+    {
+        if (e.Key != Key.Space) return;
+
+        ResetView();
+        e.Handled = true;
+    }
+
     private void viewport_Loaded(object sender, RoutedEventArgs e) => Dispatcher.BeginInvoke(DispatcherPriority.Render, new Action(() =>
     {
         if (viewport.RenderHost is not null) viewport.RenderHost.ClearColor = new Color4(0, 0, 0, 1);

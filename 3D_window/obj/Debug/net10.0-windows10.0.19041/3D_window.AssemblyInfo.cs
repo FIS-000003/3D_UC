@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("3D_window")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62aaa808d19d95a207d328a2a06d579f84f64040")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea6f4c6d12eacf96c83e732104024b98882e1bb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("3D_window")]
 [assembly: System.Reflection.AssemblyTitleAttribute("3D_window")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
