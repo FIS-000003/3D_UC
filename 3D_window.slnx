@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="UserControl3D/UserControl3D.csproj" />
+  <Project Path="3D_window/3D_window.csproj" />
+</Solution>

@@ -1,0 +1,741 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "UserControl3D/1.0.0": {
+        "dependencies": {
+          "HelixToolkit.Wpf.SharpDX": "3.1.2",
+          "MVTec.HalconDotNetXL": "26050.0.0",
+          "MVTec.HalconDotNetXL-Windows": "26050.0.0",
+          "ReactiveUI.SourceGenerators": "4.2.0",
+          "ReactiveUI.WPF": "24.1.0",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
+        },
+        "runtime": {
+          "UserControl3D.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.38",
+            "fileVersion": "10.0.19041.55"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.48161"
+          }
+        }
+      },
+      "CommunityToolkit.Common/8.3.2": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Common.dll": {
+            "assemblyVersion": "8.3.0.0",
+            "fileVersion": "8.3.2.1"
+          }
+        }
+      },
+      "CommunityToolkit.Diagnostics/8.3.2": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Diagnostics.dll": {
+            "assemblyVersion": "8.3.0.0",
+            "fileVersion": "8.3.2.1"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.3.2": {
+        "runtime": {
+          "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.3.0.0",
+            "fileVersion": "8.3.2.1"
+          }
+        }
+      },
+      "Cyotek.Drawing.BitmapFont/2.0.4": {
+        "runtime": {
+          "lib/net5.0/Cyotek.Drawing.BitmapFont.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "HelixToolkit/3.1.2": {
+        "dependencies": {
+          "CommunityToolkit.Common": "8.3.2",
+          "CommunityToolkit.Diagnostics": "8.3.2",
+          "CommunityToolkit.Mvvm": "8.3.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/HelixToolkit.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "HelixToolkit.Geometry/3.1.2": {
+        "dependencies": {
+          "CommunityToolkit.Common": "8.3.2",
+          "CommunityToolkit.Diagnostics": "8.3.2",
+          "CommunityToolkit.Mvvm": "8.3.2",
+          "HelixToolkit": "3.1.2",
+          "HelixToolkit.Maths": "3.1.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/HelixToolkit.Geometry.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "HelixToolkit.Maths/3.1.2": {
+        "dependencies": {
+          "HelixToolkit": "3.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/HelixToolkit.Maths.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "HelixToolkit.SharpDX/3.1.2": {
+        "dependencies": {
+          "CommunityToolkit.Common": "8.3.2",
+          "CommunityToolkit.Diagnostics": "8.3.2",
+          "CommunityToolkit.Mvvm": "8.3.2",
+          "Cyotek.Drawing.BitmapFont": "2.0.4",
+          "HelixToolkit": "3.1.2",
+          "HelixToolkit.Geometry": "3.1.2",
+          "HelixToolkit.Maths": "3.1.2",
+          "Microsoft.CodeAnalysis.CSharp": "4.11.0",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct2D1": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/HelixToolkit.SharpDX.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "HelixToolkit.Wpf.SharpDX/3.1.2": {
+        "dependencies": {
+          "CommunityToolkit.Common": "8.3.2",
+          "CommunityToolkit.Diagnostics": "8.3.2",
+          "CommunityToolkit.Mvvm": "8.3.2",
+          "HelixToolkit.Maths": "3.1.2",
+          "HelixToolkit.SharpDX": "3.1.2",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct2D1": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.Direct3D9": "4.2.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/HelixToolkit.Wpf.SharpDX.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.Common/4.11.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.CodeAnalysis.dll": {
+            "assemblyVersion": "4.11.0.0",
+            "fileVersion": "4.1100.24.37604"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp/4.11.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "4.11.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "4.11.0.0",
+            "fileVersion": "4.1100.24.37604"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "MVTec.HalconDotNetXL/26050.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/MVTec.HalconDotNetXL.dll": {
+            "assemblyVersion": "26050.0.0.0",
+            "fileVersion": "26050.0.0.0"
+          }
+        }
+      },
+      "MVTec.HalconDotNetXL-Windows/26050.0.0": {
+        "dependencies": {
+          "MVTec.HalconDotNetXL": "26050.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MVTec.HalconDotNetXL-Windows.dll": {
+            "assemblyVersion": "26050.0.0.0",
+            "fileVersion": "26050.0.0.0"
+          }
+        }
+      },
+      "ReactiveUI/24.1.0": {
+        "dependencies": {
+          "ReactiveUI.Core": "24.1.0",
+          "ReactiveUI.Disposables": "7.1.0",
+          "ReactiveUI.Primitives": "7.1.0",
+          "ReactiveUI.Primitives.Core": "7.1.0",
+          "Splat": "20.2.0"
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/ReactiveUI.dll": {
+            "assemblyVersion": "24.0.0.0",
+            "fileVersion": "24.1.0.0"
+          }
+        }
+      },
+      "ReactiveUI.Core/24.1.0": {
+        "dependencies": {
+          "ReactiveUI.Disposables": "7.1.0",
+          "ReactiveUI.Primitives": "7.1.0",
+          "ReactiveUI.Primitives.Core": "7.1.0",
+          "Splat": "20.2.0"
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/ReactiveUI.Core.dll": {
+            "assemblyVersion": "24.0.0.0",
+            "fileVersion": "24.1.0.0"
+          }
+        }
+      },
+      "ReactiveUI.Disposables/7.1.0": {
+        "runtime": {
+          "lib/net10.0/ReactiveUI.Disposables.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "ReactiveUI.Primitives/7.1.0": {
+        "dependencies": {
+          "ReactiveUI.Disposables": "7.1.0",
+          "ReactiveUI.Primitives.Core": "7.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/ReactiveUI.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "ReactiveUI.Primitives.Core/7.1.0": {
+        "dependencies": {
+          "ReactiveUI.Disposables": "7.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/ReactiveUI.Primitives.Core.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "ReactiveUI.Primitives.Wpf/7.1.0": {
+        "dependencies": {
+          "ReactiveUI.Primitives": "7.1.0"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/ReactiveUI.Primitives.Wpf.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "ReactiveUI.SourceGenerators/4.2.0": {
+        "runtime": {
+          "lib/net10.0/ReactiveUI.SourceGenerators.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "ReactiveUI.WPF/24.1.0": {
+        "dependencies": {
+          "ReactiveUI": "24.1.0",
+          "ReactiveUI.Disposables": "7.1.0",
+          "ReactiveUI.Primitives": "7.1.0",
+          "ReactiveUI.Primitives.Core": "7.1.0",
+          "ReactiveUI.Primitives.Wpf": "7.1.0",
+          "Splat": "20.2.0"
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/ReactiveUI.Wpf.dll": {
+            "assemblyVersion": "24.0.0.0",
+            "fileVersion": "24.1.0.0"
+          }
+        }
+      },
+      "SharpDX/4.2.0": {
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.D3DCompiler.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Direct2D1/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.Direct2D1.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.Direct3D11.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Direct3D9/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SharpDX.Direct3D9.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.DXGI.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "Splat/20.2.0": {
+        "dependencies": {
+          "ReactiveUI.Disposables": "7.1.0",
+          "Splat.Builder": "20.2.0",
+          "Splat.Logging": "20.2.0"
+        },
+        "runtime": {
+          "lib/net10.0/Splat.dll": {
+            "assemblyVersion": "20.0.0.0",
+            "fileVersion": "20.2.0.0"
+          }
+        }
+      },
+      "Splat.Builder/20.2.0": {
+        "dependencies": {
+          "ReactiveUI.Disposables": "7.1.0",
+          "Splat.Core": "20.2.0"
+        },
+        "runtime": {
+          "lib/net10.0/Splat.Builder.dll": {
+            "assemblyVersion": "20.0.0.0",
+            "fileVersion": "20.2.0.0"
+          }
+        }
+      },
+      "Splat.Core/20.2.0": {
+        "dependencies": {
+          "ReactiveUI.Disposables": "7.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/Splat.Core.dll": {
+            "assemblyVersion": "20.0.0.0",
+            "fileVersion": "20.2.0.0"
+          }
+        }
+      },
+      "Splat.Logging/20.2.0": {
+        "dependencies": {
+          "ReactiveUI.Disposables": "7.1.0",
+          "Splat.Core": "20.2.0"
+        },
+        "runtime": {
+          "lib/net10.0/Splat.Logging.dll": {
+            "assemblyVersion": "20.0.0.0",
+            "fileVersion": "20.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserControl3D/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Common/8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DFk1MUDzCUZHWFGl33HQkD1XtHHKmgfnjJ6sD2JICDc6et4DaCxf6GBPCzAZ7jcgyy/BdUDk0DUztu1K+61Q6w==",
+      "path": "communitytoolkit.common/8.3.2",
+      "hashPath": "communitytoolkit.common.8.3.2.nupkg.sha512"
+    },
+    "CommunityToolkit.Diagnostics/8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YyMsBE9lT0pJg2bEDzlfEWdlk6xHExW6jr1dxC7+YUqqVmOGL5nZROpxbXQRTe5TrfIs7BvkVsGULv/hq6tGIA==",
+      "path": "communitytoolkit.diagnostics/8.3.2",
+      "hashPath": "communitytoolkit.diagnostics.8.3.2.nupkg.sha512"
+    },
+    "CommunityToolkit.Mvvm/8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m8EolE1A0Updj68WTsZSGI6VWb6mUqHPh7QFo0kt7+JPhYMNXRS1ch8TS/oITAdcxTLrwMOp3ku1KjeG1/Zdpg==",
+      "path": "communitytoolkit.mvvm/8.3.2",
+      "hashPath": "communitytoolkit.mvvm.8.3.2.nupkg.sha512"
+    },
+    "Cyotek.Drawing.BitmapFont/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iA6WehGVdMUuNbfsQQDq/Bt+mMd/OqHjiMUtKFLIQd/0pyYh4ehT7FEjTxN9/4OXNKQZsp9bAJgltP2nnswUJg==",
+      "path": "cyotek.drawing.bitmapfont/2.0.4",
+      "hashPath": "cyotek.drawing.bitmapfont.2.0.4.nupkg.sha512"
+    },
+    "HelixToolkit/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SicJqlyFmG7ub5o7cxUbYK3wb0EJCe7v+MIuQS4f9nKyc3EZ0VK92ptCHzVI1AJOPGWIod7pfZoA3F99Nu1M/g==",
+      "path": "helixtoolkit/3.1.2",
+      "hashPath": "helixtoolkit.3.1.2.nupkg.sha512"
+    },
+    "HelixToolkit.Geometry/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NHDQfiMuwlGqLEEzXj4Z4qi9s81x2wc0J7c9dfDWwjqTBKzBFKYeBNV+KSQ+i6L+fytWBBp6dL9G1Pg8B+yzBQ==",
+      "path": "helixtoolkit.geometry/3.1.2",
+      "hashPath": "helixtoolkit.geometry.3.1.2.nupkg.sha512"
+    },
+    "HelixToolkit.Maths/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sKVK+nSjR3dTFEQ1T3P0xDxbdDI/oJCQAe0v7NCqSDAd3mddUwGSyE6+3T9oFBCQY6AYPCCTQpkzVqVVxnnN9Q==",
+      "path": "helixtoolkit.maths/3.1.2",
+      "hashPath": "helixtoolkit.maths.3.1.2.nupkg.sha512"
+    },
+    "HelixToolkit.SharpDX/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9EJ6KrUt/v8U05D5EpQObNHM5cLTqlMDpS4dNJgjzRKrTlU3X8XmuMwHt2bleQCuBYsjIDosWmQhTHcSD1sMmA==",
+      "path": "helixtoolkit.sharpdx/3.1.2",
+      "hashPath": "helixtoolkit.sharpdx.3.1.2.nupkg.sha512"
+    },
+    "HelixToolkit.Wpf.SharpDX/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kvUjV8heE1TZx8aMIrdhUYPxgUMkaIWlFkAPPOWeWyA/0drI9Q0r+hOiKkOSOy8Z4zUnxMFxwQ59eklyMWBNIw==",
+      "path": "helixtoolkit.wpf.sharpdx/3.1.2",
+      "hashPath": "helixtoolkit.wpf.sharpdx.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Common/4.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-djf8ujmqYImFgB04UGtcsEhHrzVqzHowS+EEl/Yunc5LdrYrZhGBWUTXoCF0NzYXJxtfuD+UVQarWpvrNc94Qg==",
+      "path": "microsoft.codeanalysis.common/4.11.0",
+      "hashPath": "microsoft.codeanalysis.common.4.11.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.CSharp/4.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6XYi2EusI8JT4y2l/F3VVVS+ISoIX9nqHsZRaG6W5aFeJ5BEuBosHfT/ABb73FN0RZ1Z3cj2j7cL28SToJPXOw==",
+      "path": "microsoft.codeanalysis.csharp/4.11.0",
+      "hashPath": "microsoft.codeanalysis.csharp.4.11.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nroMDjS7hNBPtkZqVBbSiQaQjWRDxITI8Y7XnDs97rqG3EbzVTNLZQf7bIeUJcaHOV8bca47s1Uxq94+2oGdxA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.2",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512"
+    },
+    "MVTec.HalconDotNetXL/26050.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yq5F/Q4PixtjGV0w4TQgyTNqblZMV0Vbj1zBQdWAM7hlXOSAvhtKuUQtFM63I2STQbLBMO3I9C6Z9wDFEBOWhw==",
+      "path": "mvtec.halcondotnetxl/26050.0.0",
+      "hashPath": "mvtec.halcondotnetxl.26050.0.0.nupkg.sha512"
+    },
+    "MVTec.HalconDotNetXL-Windows/26050.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oY38xZ6Ho9A5IdyNxUS/NbJklyqrW4qR+Yah+ma3q2byZ/KGyD1263Qe+ulkSbA95QKHGNhaQ5Xp0uqMPHdR3w==",
+      "path": "mvtec.halcondotnetxl-windows/26050.0.0",
+      "hashPath": "mvtec.halcondotnetxl-windows.26050.0.0.nupkg.sha512"
+    },
+    "ReactiveUI/24.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uBBpWQZTuv2/qcnrZ4CAiUrywilzi7+ADHJG7mMBP8/LV858GuDvo7MirSPUCb8Oy3v+kDlfMG39mWVw3uURfw==",
+      "path": "reactiveui/24.1.0",
+      "hashPath": "reactiveui.24.1.0.nupkg.sha512"
+    },
+    "ReactiveUI.Core/24.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SeZETUpkV6OfL2maWUVDdL3v83LZ6H4yJrH8LMiQ6bcdN8OdKedrVT1giLfv3gnXurWD/HpQhFR5ARcsQcg55A==",
+      "path": "reactiveui.core/24.1.0",
+      "hashPath": "reactiveui.core.24.1.0.nupkg.sha512"
+    },
+    "ReactiveUI.Disposables/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fjbSZqYvtzo8scwUJVeYZFDWEzsgUtemP5qGpTEAO/MTRhckRsjTXvb7jKP2Gm8CSNi3At3DcTXYKWogigiTTw==",
+      "path": "reactiveui.disposables/7.1.0",
+      "hashPath": "reactiveui.disposables.7.1.0.nupkg.sha512"
+    },
+    "ReactiveUI.Primitives/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RBMtipAz30PkybIph2NRpo159EXMNs5HKoY/BueeTdpJNycFKPXHVPPMpWGi8OzjEh7dY5X4lukrIWbx4lO+TA==",
+      "path": "reactiveui.primitives/7.1.0",
+      "hashPath": "reactiveui.primitives.7.1.0.nupkg.sha512"
+    },
+    "ReactiveUI.Primitives.Core/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8jDvjAt62yc+7+FQXSWvrp3hjlgCEB15mtze9A7SJBRdD3hc660zLmiLm6kEfOcfJQ7ioPtndDfgWom3lKKFXA==",
+      "path": "reactiveui.primitives.core/7.1.0",
+      "hashPath": "reactiveui.primitives.core.7.1.0.nupkg.sha512"
+    },
+    "ReactiveUI.Primitives.Wpf/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wDc2+7Fvz771lvkbhd6b1axwxLpv8qoYBIZurV8r9HiFcTinowL0flXiaGL105//FNEkxrR9i/hwDcu6mdqaHg==",
+      "path": "reactiveui.primitives.wpf/7.1.0",
+      "hashPath": "reactiveui.primitives.wpf.7.1.0.nupkg.sha512"
+    },
+    "ReactiveUI.SourceGenerators/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hGXWz3yuC6kCLaLHsR+FwAetLlqAoDVY0nMeeRkzQS7yGbmrrPlZwxvcCBJMSbY+PAbEayeBAuezw6lzsXDBGg==",
+      "path": "reactiveui.sourcegenerators/4.2.0",
+      "hashPath": "reactiveui.sourcegenerators.4.2.0.nupkg.sha512"
+    },
+    "ReactiveUI.WPF/24.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IuMbZ1NVsm1W90Lt/ikwDu3vJFKWINDdcgFDbnK8LAU96bnWUWlBkUXQPJ7zaVYyavihnEZ38FA8nKx67dY6RA==",
+      "path": "reactiveui.wpf/24.1.0",
+      "hashPath": "reactiveui.wpf.24.1.0.nupkg.sha512"
+    },
+    "SharpDX/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
+      "path": "sharpdx/4.2.0",
+      "hashPath": "sharpdx.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.D3DCompiler/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rnsd6Ilp127xbXqhTit8WKFQUrXwWxqVGpglyWDNkIBCk0tWXNQEjrJpsl0KAObzyZaa33+EXAikLVt5fnd3GA==",
+      "path": "sharpdx.d3dcompiler/4.2.0",
+      "hashPath": "sharpdx.d3dcompiler.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.Direct2D1/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qs8LzDMaQf1u3KB8ArHu9pDv6itZ++QXs99a/bVAG+nKr0Hx5NG4mcN5vsfE0mVR2TkeHfeUm4PksRah6VUPtA==",
+      "path": "sharpdx.direct2d1/4.2.0",
+      "hashPath": "sharpdx.direct2d1.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.Direct3D11/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oTm/iT5X/IIuJ8kNYP+DTC/MhBhqtRF5dbgPPFgLBdQv0BKzNTzXQQXd7SveBFjQg6hXEAJ2jGCAzNYvGFc9LA==",
+      "path": "sharpdx.direct3d11/4.2.0",
+      "hashPath": "sharpdx.direct3d11.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.Direct3D9/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1KgqXvPj/j5hLYxfcOQoJdHskamu7EWg60n9LBAYhun7dR+sKS0ZDNb7NuKwFP1bM0HZqvokjXQIf3oA2NpdqA==",
+      "path": "sharpdx.direct3d9/4.2.0",
+      "hashPath": "sharpdx.direct3d9.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.DXGI/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UjKqkgWc8U+SP+j3LBzFP6OB6Ntapjih7Xo+g1rLcsGbIb5KwewBrBChaUu7sil8rWoeVU/k0EJd3SMN4VqNZw==",
+      "path": "sharpdx.dxgi/4.2.0",
+      "hashPath": "sharpdx.dxgi.4.2.0.nupkg.sha512"
+    },
+    "Splat/20.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wmwIg3+ZDQSu3OpQVbOhuU0ICzLKV0axOKf9tXe6Y90xUY/qgLIaMuk2A9MKN9lGTOhAqvs5ohsSjp6PQsS/gA==",
+      "path": "splat/20.2.0",
+      "hashPath": "splat.20.2.0.nupkg.sha512"
+    },
+    "Splat.Builder/20.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RnriX6gQv3WBIJSPGEXU1asiwH2JaaeWg2FqfgtGEWNWNpWAL3QIDvELKkyftPhEGxpzwxMfH5xXmzj+s9QWjw==",
+      "path": "splat.builder/20.2.0",
+      "hashPath": "splat.builder.20.2.0.nupkg.sha512"
+    },
+    "Splat.Core/20.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XCSw6TxysoGapSQko/acOAKvLJOxp7Ze/3nn3oFSSoIrS3GadjNO4G+qALR3+RkESkRm7EJXbqJRQAlAeoQvVw==",
+      "path": "splat.core/20.2.0",
+      "hashPath": "splat.core.20.2.0.nupkg.sha512"
+    },
+    "Splat.Logging/20.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cCkJzJxNrhYsA0+WV0JQBcSaM0PmyILE9G1RVXgNfw026FWJGGyE1Ayvxco/UjKfTYCvuOMV57yAv3c2iN7uvQ==",
+      "path": "splat.logging/20.2.0",
+      "hashPath": "splat.logging.20.2.0.nupkg.sha512"
+    }
+  }
+}
