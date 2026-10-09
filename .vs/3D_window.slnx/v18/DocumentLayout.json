@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\3D_window\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|c:\\users\\user\\source\\repos\\3d_window\\usercontrol3d\\view\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|solutionrelative:usercontrol3d\\view\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|c:\\users\\user\\source\\repos\\3d_window\\usercontrol3d\\view\\usercontrol1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|solutionrelative:usercontrol3d\\view\\usercontrol1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E9ADF45E-0967-83A7-A969-97B1A93F0DF1}|3D_window\\3D_window.csproj|c:\\users\\user\\source\\repos\\3d_window\\3d_window\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E9ADF45E-0967-83A7-A969-97B1A93F0DF1}|3D_window\\3D_window.csproj|solutionrelative:3d_window\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9ADF45E-0967-83A7-A969-97B1A93F0DF1}|3D_window\\3D_window.csproj|c:\\users\\user\\source\\repos\\3d_window\\3d_window\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9ADF45E-0967-83A7-A969-97B1A93F0DF1}|3D_window\\3D_window.csproj|solutionrelative:3d_window\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9ADF45E-0967-83A7-A969-97B1A93F0DF1}|3D_window\\3D_window.csproj|c:\\users\\user\\source\\repos\\3d_window\\3d_window\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E9ADF45E-0967-83A7-A969-97B1A93F0DF1}|3D_window\\3D_window.csproj|solutionrelative:3d_window\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E9ADF45E-0967-83A7-A969-97B1A93F0DF1}|3D_window\\3D_window.csproj|c:\\users\\user\\source\\repos\\3d_window\\3d_window\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9ADF45E-0967-83A7-A969-97B1A93F0DF1}|3D_window\\3D_window.csproj|solutionrelative:3d_window\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|c:\\users\\user\\source\\repos\\3d_window\\usercontrol3d\\model\\imageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|solutionrelative:usercontrol3d\\model\\imageloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|c:\\users\\user\\source\\repos\\3d_window\\usercontrol3d\\view\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|solutionrelative:usercontrol3d\\view\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|c:\\users\\user\\source\\repos\\3d_window\\usercontrol3d\\model\\image2dto3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|solutionrelative:usercontrol3d\\model\\image2dto3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|c:\\users\\user\\source\\repos\\3d_window\\usercontrol3d\\model\\grayimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|solutionrelative:usercontrol3d\\model\\grayimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|c:\\users\\user\\source\\repos\\3d_window\\usercontrol3d\\view\\usercontrol1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B043E00-BEAA-3982-D9F0-198DCA7066F9}|UserControl3D\\UserControl3D.csproj|solutionrelative:usercontrol3d\\view\\usercontrol1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,49 +42,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\3D_window\\View\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "3D_window\\View\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\3D_window\\View\\MainWindow.xaml.cs",
-              "RelativeToolTip": "3D_window\\View\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-08T07:18:25.702Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ImageLoader.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\Model\\ImageLoader.cs",
-              "RelativeDocumentMoniker": "UserControl3D\\Model\\ImageLoader.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\Model\\ImageLoader.cs",
-              "RelativeToolTip": "UserControl3D\\Model\\ImageLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "UserControl1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\View\\UserControl1.xaml.cs",
+              "RelativeDocumentMoniker": "UserControl3D\\View\\UserControl1.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\View\\UserControl1.xaml.cs",
+              "RelativeToolTip": "UserControl3D\\View\\UserControl1.xaml.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAawOQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-08T05:41:18.735Z",
+              "WhenOpened": "2026-10-08T03:31:55.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserControl1.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\View\\UserControl1.xaml",
-              "RelativeDocumentMoniker": "UserControl3D\\View\\UserControl1.xaml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\View\\UserControl1.xaml",
-              "RelativeToolTip": "UserControl3D\\View\\UserControl1.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-07T08:55:49.271Z",
+              "DocumentIndex": 5,
+              "Title": "Image2Dto3D.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\Model\\Image2Dto3D.cs",
+              "RelativeDocumentMoniker": "UserControl3D\\Model\\Image2Dto3D.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\Model\\Image2Dto3D.cs",
+              "RelativeToolTip": "UserControl3D\\Model\\Image2Dto3D.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:13:20.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\3D_window\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "3D_window\\View\\MainWindow.xaml",
@@ -84,15 +88,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserControl1.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\View\\UserControl1.xaml.cs",
-              "RelativeDocumentMoniker": "UserControl3D\\View\\UserControl1.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\View\\UserControl1.xaml.cs*",
-              "RelativeToolTip": "UserControl3D\\View\\UserControl1.xaml.cs*",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAUwE0AAAA8AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ImageLoader.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\Model\\ImageLoader.cs",
+              "RelativeDocumentMoniker": "UserControl3D\\Model\\ImageLoader.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\Model\\ImageLoader.cs",
+              "RelativeToolTip": "UserControl3D\\Model\\ImageLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-08T03:31:55.156Z",
+              "WhenOpened": "2026-10-08T05:41:18.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\3D_window\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "3D_window\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\3D_window\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "3D_window\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T08:44:23.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\3D_window\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "3D_window\\View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\3D_window\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "3D_window\\View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T07:18:25.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserControl1.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\View\\UserControl1.xaml",
+              "RelativeDocumentMoniker": "UserControl3D\\View\\UserControl1.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\View\\UserControl1.xaml",
+              "RelativeToolTip": "UserControl3D\\View\\UserControl1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-07T08:55:49.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GrayImage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\Model\\GrayImage.cs",
+              "RelativeDocumentMoniker": "UserControl3D\\Model\\GrayImage.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\3D_window\\UserControl3D\\Model\\GrayImage.cs",
+              "RelativeToolTip": "UserControl3D\\Model\\GrayImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:13:20.181Z",
               "EditorCaption": ""
             }
           ]

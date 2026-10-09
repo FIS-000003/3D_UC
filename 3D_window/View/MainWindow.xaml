@@ -3,5 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:controls="clr-namespace:UserControl3D;assembly=UserControl3D"
         Title="3D Gray Level Heatmap" Height="600" Width="900">
-    <controls:UserControl1 x:Name="ImageView" ImageFilePath="C:\Users\User\Desktop\2026-04-24_16-17-39-762.bmp" />
+     <!--<controls:UserControl1 x:Name="ImageView" ImageFilePath="C:\Users\User\Desktop\2026-04-24_16-17-39-762.bmp" />--> 
+    <controls:UserControl1 Coordinates="{Binding DataContext.Coordinates, RelativeSource={RelativeSource AncestorType=Window}}" />
 </Window>

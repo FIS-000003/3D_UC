@@ -1,4 +1,5 @@
 using System.Windows;
+using _3D_window.ViewModel;
 
 namespace _3D_window.View
 {
@@ -10,6 +11,7 @@ namespace _3D_window.View
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }
